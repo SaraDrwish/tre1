@@ -1,0 +1,59 @@
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+
+:root{
+
+  /* Colors : */
+
+--Primary:#FDE049;
+--Secondary:#007580;
+--Red : #E01B24;
+--Grey: #FAFAFA;
+--Black: #000000;
+
+/* Typographey */
+
+--HeadLine101: 48px;
+--HeadLine102:60px;
+--HeadLine201:34px ;
+--HeadLine202:50px;
+--HeadLine301:2.618rem;
+--HeadLine302: 41.89px;
+--HeadLine401:18px;
+--HeadLine402: 22px;
+--Paragraph1: 14px;
+--Paragraph2: 24px;
+
+/* Font wight */
+--Font1SemiBold: 600;
+--Font2Regular: 400 ; 
+
+}
+
+.buttonDefault{
+     width: 7%;
+     padding: 1%;
+     border-radius: 50px;
+     -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+     -ms-border-radius: 50px;
+     -o-border-radius: 50px;
+     background-color: var(--Primary);
+     color: var(--Grey);
+     border: none;
+     font-weight: var(--Font1SemiBold);
+     cursor: pointer;
+     transition: all 0.3s ease-in;
+     -webkit-transition: all 0.3s ease-in;
+     -moz-transition: all 0.3s ease-in;
+     -ms-transition: all 0.3s ease-in;
+     -o-transition: all 0.3s ease-in;
+}
+.buttonDefault:hover{
+  background-color: #e7bc3c; 
+}
+
+
