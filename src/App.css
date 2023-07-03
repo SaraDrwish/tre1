@@ -2,7 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: var(--Black);
  }
+
+body{
+  background-image: url(../src/assets/images/background_pattren.png);
+}
 
 :root{
 
@@ -56,4 +61,19 @@
   background-color: #e7bc3c; 
 }
 
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+.App{
+  position: relative;
+  background-color: #33abb4;
+  /* left: 0; */
+  /* width: 92%; */
+  /* margin: auto; */
+  /* display: flex;
+  justify-content: space-around; */
+  /* height: 50vh; */
+}
 
