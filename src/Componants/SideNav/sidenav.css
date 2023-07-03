@@ -11,6 +11,11 @@
     /* background-color: rgb(100, 122, 114); */
     text-transform: capitalize;
 }
+.navleft a {
+    display: flex;
+    padding: 1% 0;
+    /* background-color: rgb(29, 82, 64); */
+}
 .navleft .sidNavText1{
     display: flex;
     align-items: center;
@@ -18,11 +23,22 @@
     justify-content: space-between;
     /* text-align: center; */
     /* background-color: aqua; */
-    margin: 8% auto;
+    /* margin: 8% auto; */
+    margin-top: 14%;
+    position: relative;
+    left: 0;
  }
+ .navleft .sidNavText1 h6{
+     display: flex;
+     /* flex: 4; */
+ }
+
 .navleft .sidNavText1 .PlusIcon{
     background-color: var(--Secondary);
     display: flex;
+    position: absolute;
+    right: -16%;
+    /* flex: 1; */
     align-items: center;
     justify-content: center;
     font-size: 16px;
