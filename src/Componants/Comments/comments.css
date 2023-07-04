@@ -1,10 +1,10 @@
 .Comments{
-    margin: 2% auto;
+    margin: 4% auto 4% auto;
     width: 95%;
     padding: 2%;
-    background-color: rgb(255, 147, 5);
+    /* background-color: rgb(255, 147, 5); */
     /* width: 100%; */
-    /* height: 50vh; */
+    /* height: 40vh; */
     position: relative;
     left: 0;
     top: 28%;
@@ -14,23 +14,18 @@
         -moz-border-radius: 14px;
         -ms-border-radius: 14px;
         -o-border-radius: 14px;
-
 }
 
 .Comments-container{
     display: flex;
     justify-content: flex-end;
-    /* align-items: end; */
-
     gap: 1%;
     position: absolute;
     left: 0;
     bottom: 0;
-    padding: 33% 1% 1%;
+    padding: 25% 1% 1%;
     width: 100%;
-    /* height: 100vh; */
-    /*z-index: -1;
-    */background-color:#EAF5F1;
+    background-color:#EAF5F1;
     border-radius: 14px;
     -webkit-border-radius: 14px;
     -moz-border-radius: 14px;
@@ -66,22 +61,63 @@
 }
 
 .Comments-BigBox{
-    background-color: antiquewhite;
+    background-color: var(--Grey);
 }
-
+.Comments-BigBox  hr{
+    width: 90%;
+    margin: auto;
+    /* background-color: var(--Grey);
+    border-color: var(--Grey);
+    fill: var(--Grey);
+    color: var(--Grey); */
+ }
 .commentsBtm input{
     padding: 3%;
     border: none;
-    margin: 1%;
+    margin: 2% auto;
     outline: none;
-    width: 99%;
-    border-radius: 8px;
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -ms-border-radius: 8px;
-        -o-border-radius: 8px;
+    width: 100%;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
 }
 
+.singleComment{
+/* background-color: turquoise; */
+padding: 2% 4%;
+margin: 1% auto;
+display: flex;
+/* flex-direction: column; */
+gap: 1%;
+/* border-bottom: 1px solid black; */
+/* justify-content: space-evenly; */
+}
 
+.singleComment span {
+color: var(--Secondary);
+font-weight: 500;
+}
+.commentContentBox{
+    display: flex;
+    /* background-color: rgb(178, 195, 195); */
+    width: 78%;
+    margin: 0 2%;
+    /* padding: 0 2%; */
+   flex-direction: column;
+}
+.singleComment .commentImg{
+    width: 66px;
+    height: 66px;
+    background-color: rgb(160, 160, 160);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
 
-
+.singleComment-Replay-comment{
+    margin: auto 10%;
+}

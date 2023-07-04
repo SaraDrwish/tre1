@@ -9,25 +9,45 @@ function Comments() {
         {/* <h1> Commments section </h1> */}
         <div className="Comments-BigBox">
 
-          <div className="singleComment">
-
-            <div className="commentImg"></div>
-            <span className='commentName' ></span>
-            <input type="text" placeholder='lorem8' />
-            
-            <div className="singleComment-Replay">
-              <div className="commentImg"></div>
-              <span className='commentName' ></span>
-              <input type="text" placeholder='lorem8'/>
-            </div> {/** end singleComment-Replay */}
-            
-          </div> {/** end singleComment */}
-
-          
+         <div className="singleComment-Replay">
           <div className="singleComment">
             <div className="commentImg"></div>
-            <span className='commentName' ></span>
-            <input type="text" placeholder='lorem8'/>
+              <div className="commentContentBox">
+                  <span className='commentName' >Norahn Ali</span>
+                  <input type="text" placeholder='lorem8' />
+               </div> {/** end commentContentBox */}
+            </div> {/** end singleComment */}
+            <hr />
+
+            <div className="singleComment-Replay-comment">
+                <div className="singleComment-Replay">
+                    <div className="singleComment">
+                    <div className="commentImg"></div>
+                    {/* <input className='commentName' type="text"  value="Norahn Ali" placeholder='Norahn Ali'/>  */}
+                      <div className="commentContentBox">
+                        <span className='commentName' >Norahn Ali</span>
+                        <input type="text" placeholder='lorem888888888888888888888888888888888888888888888888888888888888' />
+                      </div> {/** end commentContentBox */}
+
+                    </div> {/** end singleComment */}
+
+              </div> {/** end singleComment-Replay */}
+
+              
+            </div> {/**end singleComment-Replay-comment */}
+            <hr />
+
+            
+          </div> {/** end singleComment-Replay */}
+
+                 
+          <div className="singleComment">
+            <div className="commentImg"></div>
+            <div className="commentContentBox">
+                <span className='commentName' >Norahn Ali</span>
+                <input type="text" placeholder='lorelllllllllllllllllllllllllllllllllllllllm8' />
+            </div> {/** end commentContentBox */}
+            
           </div> {/** end singleComment */}
 
 
