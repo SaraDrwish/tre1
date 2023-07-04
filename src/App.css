@@ -66,9 +66,14 @@ a{
   color: unset;
 }
 
+/* ul{
+  display: flex;
+  list-style: none;
+} */
+
 .App{
   position: relative;
-  background-color: #33abb4;
+  /* background-color: #33abb4; */
   /* left: 0; */
   /* width: 92%; */
   /* margin: auto; */
@@ -77,3 +82,8 @@ a{
   /* height: 50vh; */
 }
 
+
+.app-container{
+  /* padding: 1% 0; */
+  /* margin: 2%; */
+}

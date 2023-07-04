@@ -1,11 +1,11 @@
 .RequestInfo{
     width: 70%;
-    /* height: 100vh; */
+    height: 130vh;
     position: absolute;
     right: 4% ;
     /*top: 4%;
-    */margin-top: 3%;
-    display: flex;
+    */margin : 3%  0;
+     display: flex;
     /*justify-content: center;
     */background-color:  var(--Grey);
     flex-direction: column;
