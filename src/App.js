@@ -5,6 +5,7 @@ import SideNav from './Componants/SideNav/SideNav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import * as Unicons from '@iconscout/react-unicons';
 import Header from './Componants/Header/Header';
+import Footer from './Componants/Footer/Footer';
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
         <Header/>
         <SideNav/>
         <RequestInfo/>
-        {/* <Comments /> */}
+        <Comments />
+        <Footer/>
         
       </div>
 

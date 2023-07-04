@@ -86,4 +86,5 @@ a{
 .app-container{
   /* padding: 1% 0; */
   /* margin: 2%; */
+  position: relative;
 }
