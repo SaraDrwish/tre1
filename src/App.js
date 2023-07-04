@@ -15,9 +15,18 @@ function App() {
 
         <Header/>
         <SideNav/>
-        <RequestInfo/>
+        <RequestInfo />
         <Comments />
-        <Footer/>
+        {/* <Footer /> */}
+        
+
+        {/* <div className='MAin-Comments'>
+          <Comments />
+        </div>
+        <div className='MAin-Footer'>
+          <Footer/>
+        </div> */}
+
         
       </div>
 

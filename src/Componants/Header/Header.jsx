@@ -1,7 +1,6 @@
 import React from 'react'
 import "./header.css"
 import Logo from "../../assets/images/logo(4).png"
-import Logo2 from "../../assets/images/logoText.png"
 import Search from '@iconscout/react-unicons/icons/uil-search'
 
 

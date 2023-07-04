@@ -7,7 +7,6 @@ import Logo from "../../assets/images/logo(4).png"
 import Twitter from '@iconscout/react-unicons/icons/uil-twitter'
 
 
-
 function Footer() {
   return (
       <div className='Footer'>
@@ -28,10 +27,6 @@ function Footer() {
                   </ul>
               </div> {/**end footer-med */}
               
-
-
-
-              
               <div className="footer-btm">
                   
                   <div className="footer-btm-txt">
@@ -46,9 +41,6 @@ function Footer() {
 
               </div> {/**end footer-btm */}
               
-
-
-
           </div> {/**end footer-container */}
       
       </div> /** end Footer */

@@ -4,8 +4,14 @@ import "./comments.css"
 function Comments() {
   return (
     <div className='Comments'>
-      <h1> Commments section </h1>
-    </div>
+      
+      <div className="comment-container">
+         <h1> Commments section </h1>
+
+
+      </div> {/** end comment-container */}
+
+    </div> /** end Comment  */
   )
 }
 
