@@ -14,9 +14,17 @@ function App() {
       <div className='app-container'>
 
         <Header/>
-        <SideNav/>
-        <RequestInfo />
-        <Comments />
+        <SideNav />
+        <div className='App-Container-2'>
+          <RequestInfo />
+        </div>
+
+        <div className="Footer-container">
+              
+            <Footer/>
+
+        </div> {/**end Comments-container */ }
+        
         {/* <Footer /> */}
         
 

@@ -1,10 +1,10 @@
 .Footer{
-    position: relative;
-        /* position: absolute; */
+    /* position: relative; */
+    position: absolute;
     bottom: 0px;
     left: 0px;
-    /* background-color: var(--Grey); */
-    background-color: rgb(177, 209, 194);
+    background-color: var(--Grey);
+    /* background-color: rgb(177, 209, 194); */
     padding: 1% 1% 0% 0%;
     width: 100%;
     /* margin-top: 100%; */

@@ -4,7 +4,9 @@ import Mony from '@iconscout/react-unicons/icons/uil-money-bill'
 import Location from '@iconscout/react-unicons/icons/uil-location-point'
 import Time from '@iconscout/react-unicons/icons/uil-clock'
 import Exp from '@iconscout/react-unicons/icons/uil-bag'
- 
+import Comments from "../Comments/Comments";
+import Footer from "../Footer/Footer";
+
 
 function RequestInfo() {
 
@@ -139,7 +141,13 @@ function RequestInfo() {
           </div> {/** end aboutMentor */}
 
 
+          <div className="Comments-container">
+              
+            <Comments/>
 
+          </div> {/**end Comments-container */}
+
+          {/* <Footer className="footer-f" /> */}
 
       </div> /** end RequestInfo */
       

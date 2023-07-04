@@ -86,9 +86,18 @@ a{
 .app-container{
   /* padding: 1% 0; */
   /* margin: 2%; */
-  position: relative;
+  /* position: relative; */
+  /* background-color: #ff8f95ef; */
 }
-
+.App-Container-2{
+  /* width: 100%; */
+  /* margin: 8% auto; */
+  /* background-color: #dafbff; */
+  /* position: absolute; */
+  /* top: 10%; */
+  /* padding: 2%; */
+  height: 350vh;
+}
 /* .MAin-Comments{
   position: relative;
 }

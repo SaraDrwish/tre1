@@ -1,16 +1,23 @@
 .SideNav {
     width: 20%;
-    height: 50vh;
+    /* height: 260vh; */
     position: absolute;
+   /* position: relative; */
+    /* height: 100vh; */
     left: 4%;
-    /* top: 8%; */
+    top: 8%;
     /* padding-top: 8%; */
     margin-top: 8%;
+    margin-bottom: 8%;
     display: flex;
     /* justify-content: space-around; */
     /* background-color: rgb(100, 122, 114); */
     text-transform: capitalize;
 }
+/* .navleft{
+    position: relative;
+    bottom: 0;
+} */
 .navleft a {
     display: flex;
     padding: 1% 0;
