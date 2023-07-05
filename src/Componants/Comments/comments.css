@@ -62,6 +62,11 @@
 
 .Comments-BigBox{
     background-color: var(--Grey);
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
 }
 .Comments-BigBox  hr{
     width: 90%;

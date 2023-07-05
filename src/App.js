@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import * as Unicons from '@iconscout/react-unicons';
 import Header from './Componants/Header/Header';
 import Footer from './Componants/Footer/Footer';
+import Comments2 from './Componants2/Comments2/Comments2';
+import RequestMentor2 from './Componants2/RequestMentor2/RequestMentor2';
 
 
 function App() {
@@ -36,7 +38,19 @@ function App() {
         </div> */}
 
         
-      </div>
+      </div> {/** end app-container */}
+
+
+
+       <div className='app2-container2'>
+
+       
+
+        
+      </div> {/** end app2-container 2 */}
+
+
+
 
       
     </div>  /** end App */

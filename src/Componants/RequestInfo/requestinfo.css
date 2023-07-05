@@ -1,6 +1,6 @@
 .RequestInfo{
     width: 70%;
-    height: 319vh;
+    height: 338vh;
     position: absolute;
     right: 4% ;
     margin : 3% 0%;
@@ -177,6 +177,9 @@ font-weight: 500;
       -o-border-radius: 15px ;
       position: absolute;
       z-index: 2;
+      width: 94%;
+      margin: auto;
+      position: relative;
 }
 
 .aboutContainer .aboutContLeft{
@@ -285,6 +288,25 @@ text-align: center;
 
 
 
+/* .aboutContLeft-btm{
+position: absolute;
+right: 0;
+top: 2%;
+width: 40%;
+margin: 2% 0;
+}
+
+.expir{
+position: absolute;
+left: 4%;
+bottom: 2%;
+padding: 2% 0;
+margin-bottom: 11%;
+} */
+
+
+
+
 
 
 
@@ -303,7 +325,7 @@ text-align: center;
 
 
     .RequestInfo {
-         font-size: small;
+        font-size: small;
         margin: auto;
         width: 90%;
         height: 384vh;
