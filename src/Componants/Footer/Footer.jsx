@@ -18,7 +18,7 @@ function Footer() {
               </div> {/*end footer-logo*/}
               <div className="footer-med">
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, voluptatum quae.</p>
-                  <ul>
+                  <ul className='ul-footer'>
                       <li>overview</li>
                       <li>becom a mentor</li>
                       <li>become a mentee</li>

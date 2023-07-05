@@ -149,6 +149,68 @@ padding: 1% 4%;
 }
 
 
+.repoNav{
+    display: none;
+}
 
 
+
+
+
+/* =====================================
+--------------------------------- MEdia screens --------------------------------- 
+===================================== */
+
+
+
+
+@media screen and (max-width:480px) {
+
+
+    .header {
+        padding: 0.5rem;
+        font-size: x-small;
+        /* display: none; */
+    }
+    .repoNav{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        color: var(--Secondary);
+        width: 100%;
+        padding: 1%;
+        margin: 0 auto 11% auto;
+    }
+    .logo2{
+        /* flex: 2; */
+        width: 25%;
+        height: 50%;
+    }
+
+    .pars-icon{
+        fill: var(--Secondary);
+        /* flex: 1; */
+        font-size: 33px;
+        font-weight: bold;
+        width: 20%;
+        height: 40%;
+        cursor: pointer;
+    }
+
+    .leftHeader{
+        display: none;
+    }
+    
+    .leftHeader .logo1{
+        display: none;
+    }
+
+    .rightHeader{
+        display: none;
+    }
+
+
+
+
+}
 

@@ -1,17 +1,25 @@
 import React from 'react'
 import "./header.css"
 import Logo from "../../assets/images/logo(4).png"
+import Logo2 from "../../assets/images/favicon.ico"
 import Search from '@iconscout/react-unicons/icons/uil-search'
-
+import Menu from '@iconscout/react-unicons/icons/uil-bars'
 
 function Header() {
   return (
       <div className='header'>
           
           <div className="leftHeader">
-              <img src={Logo} alt="" />
+              <img className="logo1" src={Logo} alt="logo" />
+             
           </div> {/** end leftHeader */}
 
+           <div className="repoNav">
+                   <img className='logo2' src={Logo2} alt="logo" />
+                   <Menu className="pars-icon"  />
+          </div> {/** end repoNav */}
+
+          
           <div className="rightHeader">
 
                 <div className="profilImg">

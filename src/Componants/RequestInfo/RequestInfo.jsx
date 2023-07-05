@@ -37,12 +37,16 @@ function RequestInfo() {
               <div className="list">
                   <ul>
                       <div className="listLeft">
-                          <li> <Mony className="icon" /> Paid :  <span>200 sdg/H</span></li>
-                          <li> <Exp className="icon" /> Expirence: <span>none</span></li>
+                          <li> <Mony className="icon" />
+                              <div className='listlift-list'>
+                              <span>  Paid: </span>
+                              <span> 200 sdg/H</span></div>
+                          </li>
+                          <li> <Exp className="icon" />  <div className='listlift-list' > <span>Expirence: </span> <span> none</span> </div>   </li>
                       </div>
                       <div className="listRight">
-                         <li> <Location className="icon" /> Location :  <span>remote</span></li>
-                         <li> <Time className="icon"/> Duration :  <span>open duration</span></li> 
+                         <li> <Location className="icon" /> <div className='listlift-list' > <span> Location: </span>  <span> remote</span>  </div>  </li>
+                         <li> <Time className="icon"/> <div className='listlift-list' > <span> Duration:  </span> <span> open duration</span>  </div>   </li> 
                       </div>
                       
                   </ul>
@@ -76,7 +80,10 @@ function RequestInfo() {
                   <li>Lorem i onsectetur adipisicing . Obcaecati, aliquam labore.</li>
                   <li>Lorem ipsum dolortetur adipisicing elit. Obcaecati, aliquam labore.</li>
                   <li>Lorem ipsum dolortetur adipisighgh hyghg hghhgh hghghh cing elit. Obcaecati, aliquam labore.</li>
-               </ul>
+              </ul>
+              
+             <button className='buttonDefault AboutBtn'>Mentor</button>
+
           </div> {/**end contantList3 */}
 
           <div className="aboutMentor">
@@ -107,31 +114,37 @@ function RequestInfo() {
                           </div> {/** end aboutContLeft-left */}
                           
                       </div> {/** end aboutContLeft-BigBox */}
-                      
-                      <div className="aboutContLeft-btm">
-                          <p>Lorem ipsum dolor sit, amet consectetur
-                          adipisicing elit. Laudantium, sed!
-                          Laudantium, aut optio quibusdam
-                          perspiciatis a ad vel doloremque
-                          in reiciendis dolorem.</p>
-                      </div> {/** end aboutContLeft-btm */}
-                      
+
+
+                      <div className="expir">
+                          <span>Expirise</span>
+                        <ul>
+                            <li>Software Engneering</li>
+                            <li>front end development </li>
+                            <li>front end deve </li>
+                          </ul>
+                          
+                      </div> {/** end expir */}
 
 
                   </div> {/** end aboutContLeft */}
 
                   <div className="aboutContRight">
                       
-                      <span>Expirise</span>
-                      <ul>
-                          <li>Software Engneering</li>
-                          <li>front end development </li>
-                          <li>front end deve </li>
-                      </ul>
+                     
+
+                          <div className="aboutContLeft-btm">
+                          <p>Lorem ipsum dolor sit, amet consectetur
+                          adipisicing elit. Laudantium, sed!
+                          Laudantium, aut optio quibusdam
+                          perspiciatis a ad vel doloremque
+                          in reiciendis dolorem.</p>
+                      </div> {/** end aboutContLeft-btm */}
+
                       <div className="aboutContRightImgBox">
                           {/* <img src="" alt="" /> */}
                           <p></p>
-                          <button className='buttonDefault'>View Profile</button>
+                          <button className='buttonDefault resb-btn-profil'>View Profile</button>
                       </div>
                       
                   </div> {/** end aboutContRight */}

@@ -107,6 +107,9 @@ font-weight: 500;
     /* padding: 0 2%; */
    flex-direction: column;
 }
+.commentContentBox input{
+ background-color: unset;
+}
 .singleComment .commentImg{
     width: 66px;
     height: 66px;
@@ -121,3 +124,39 @@ font-weight: 500;
 .singleComment-Replay-comment{
     margin: auto 10%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====================================
+--------------------------------- MEdia screens --------------------------------- 
+===================================== */
+
+
+
+
+@media screen and (max-width:480px) {
+
+
+    .Comments ,.comment-container {
+   
+       
+    }
+
+
+
+
+}
+
+
+
+

@@ -102,6 +102,10 @@ display: flex;
     line-height: 2.5;
     text-transform: capitalize;
     font-weight: var(--Font1SemiBold);
+    /* justify-content: center; */
+    /* align-items:center ; */
+    gap: 1%;
+
 }
 
  .reqCon .list ul{
@@ -116,8 +120,25 @@ display: flex;
     flex-direction: column;
     /* background-color: antiquewhite; */
  }
- .reqCon .list ul span {
+
+.reqCon .list ul li {
+display: flex;
+align-items: center;
+}
+
+ .reqCon .list .icon{
+    /* flex: 1; */
+}
+ .reqCon .list .listlift-list{
+    /* flex: 1; */
+    /* width: 15%; */
+    /* padding-right: 1%; */
+    /* gap: 1%; */
+}
+
+ .reqCon .list ul span:nth-child(2) {
    color: var(--Secondary);
+   /* margin-right: 1%; */
  }
  
 .list ul .listRight{
@@ -249,8 +270,202 @@ text-align: center;
     left: 0;
     width: 100%;
 } */
+.listlift-list {
+    display: flex;
+
+}
+
+.AboutBtn{
+    display: none;
+}
+
+/* .Comments input{
+    background-color: unset;
+} */
 
 
+
+
+
+
+
+
+
+
+
+/* =====================================
+--------------------------------- MEdia screens --------------------------------- 
+===================================== */
+
+
+
+
+@media screen and (max-width:480px) {
+
+
+    .RequestInfo {
+        font-size: small;
+        margin: auto;
+        width: 90%;
+        padding: 4%;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+        box-shadow: unset;
+}
+
+   .reqTitleRight .topRightTitle {
+      width: 80%;
+ }
+
+ .reqTitleLeft{
+    width: 100%;
+    display: flex;
+ }
+
+.reqTitleRight {
+    /* display: none; */
+    flex: unset;
+}
+
+.buttonDefault ,  .ReqBtn{
+    display: none;
+}
+
+.reqTitleLeft .Title2{
+    width: 100%;
+    display: flex;
+}
+
+.RequestInfo .reqTop {
+    margin-top: 20%;
+}
+.reqCon .list li{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.list ul .listLeft {
+  /* flex-direction: row; */
+}
+.list ul .listRight {
+    /* flex-direction: row; */
+ }
+
+.reqCon .list ul li {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    /* width: 70%; */
+    padding: 2%;
+    margin:auto;
+    margin: auto;
+    /* text-align: center; */
+}
+
+.reqCon .list .icon {
+    /* flex: 1; */
+}
+
+.reqCon .list .listlift-list {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.AboutBtn{
+    display: flex;
+    width: 40%;
+    color: black;
+    padding: 4%;
+    margin-left: auto;
+    /* text-align: right; */
+    justify-content: center;
+}
+
+
+/* ----------------------------------------- */
+
+
+.aboutContainer {
+    flex-direction: column-reverse;
+}
+.aboutContLeft-btm{
+    /* position: absolute; */
+    top: 60%;
+    width: 80%;
+}
+.aboutContainer .aboutContLeft{
+    padding: 4%;
+}
+ 
+.aboutContRight{
+ display: flex;
+ flex-direction: column-reverse;
+ /* gap: 1%; */
+ /* padding: 1%; */
+ /* margin: 2%; */
+ /* background-color: rgb(74, 74, 236); */
+ /* position: relative; */
+}
+.aboutContRight p{
+    padding: 2% 0;
+    margin-bottom: 44%;
+}
+
+.aboutContainer .aboutContRight{
+/* position: absolute; */
+bottom: 0;
+}
+
+.aboutContRightImgBox{
+/* background-color: rgb(110, 169, 169); */
+padding: 16% 0;
+margin: 8% auto;
+}
+
+.resb-btn-profil{
+    width: 55%;
+    padding: 2%;
+background-color: antiquewhite;
+position: absolute;
+top: 7%;
+z-index: 5;
+}
+
+ 
+.aboutMentor h4 {
+    position: absolute;
+    top: 60%;   
+    left: 32px;
+    /* background: #8d4747; */
+    padding: 1% 0;
+    z-index: 3;
+}
+
+
+/* --------------comnts media ----------------------------------- */
+
+.commentsBtm input {
+    padding: 8%;
+}
+ 
+.comment-container button {
+    margin: 4% auto;
+    width: 90%;
+    padding: 3%;
+
+}
+
+/* ---------------------------rnd commnts media */
+
+
+
+
+}
 
 
 

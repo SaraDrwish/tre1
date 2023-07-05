@@ -65,3 +65,36 @@
     text-decoration: none;
     color: unset;
 }
+
+
+
+
+
+
+
+
+/* =====================================
+--------------------------------- MEdia screens --------------------------------- 
+===================================== */
+
+
+
+
+@media screen and (max-width:480px) {
+
+
+    .SideNav {
+        padding: 0.5rem;
+        font-size: x-small;
+        display: none;
+    }
+
+
+
+
+}
+
+
+
+
+

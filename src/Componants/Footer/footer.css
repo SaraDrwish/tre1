@@ -76,3 +76,76 @@ justify-content: center;
 
 
 
+/* =====================================
+--------------------------------- MEdia screens --------------------------------- 
+===================================== */
+
+
+
+
+@media screen and (max-width:480px) {
+
+
+    .Footer{
+        padding: 6%;
+    }
+    .footer-container .footer-logo img{
+        width: 60%;
+        margin-bottom: 8%;
+    }
+   .footer-container .footer-med p {
+     /* background-color: rgb(187, 178, 161); */
+      width: 88%;
+      margin-bottom: 22%;
+   }
+    .footer-btm{
+        flex: 1;
+    }
+    .footer-med{
+        flex: 1;
+    }
+
+    .footer-btm-txt{
+        /* flex: 1; */
+        flex-direction: column;
+    }
+    .ul-footer{
+        flex-direction: column;
+        /* flex: 1; */
+    }
+
+  .footer-container .footer-btm .footer-btm-icons {
+            width: 100%;
+            flex-direction: column;
+            position: absolute;
+            top: 55%;
+            left: 80%;
+        }
+
+
+
+        
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
