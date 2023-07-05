@@ -88,6 +88,7 @@ justify-content: center;
 
     .Footer{
         padding: 6%;
+        overflow: hidden;
     }
     .footer-container .footer-logo img{
         width: 60%;
@@ -120,7 +121,7 @@ justify-content: center;
             position: absolute;
             top: 55%;
             left: 80%;
-        }
+         }
 
 
 

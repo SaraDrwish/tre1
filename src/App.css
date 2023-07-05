@@ -125,7 +125,10 @@ a{
     padding: 0.5rem;
     font-size: x-small;
   }
-
+.App-Container-2 {
+  height: 444vh;
+  overflow: hidden;
+}
 
 
 

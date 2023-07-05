@@ -13,7 +13,6 @@
     -ms-border-radius: 2%;
     -o-border-radius: 2%;
     padding: 4% 2%;
-    overflow: hidden;
     box-shadow: rgba(40, 42, 46, 0.25) 0px 4px 8px -2px, rgba(41, 44, 50, 0.08) 0px 0px 0px 1px;
 }
 .RequestInfo .reqTop{
@@ -304,9 +303,10 @@ text-align: center;
 
 
     .RequestInfo {
-        font-size: small;
+         font-size: small;
         margin: auto;
         width: 90%;
+        height: 384vh;
         padding: 4%;
         border-radius: 16px;
         -webkit-border-radius: 16px;
@@ -330,7 +330,7 @@ text-align: center;
     flex: unset;
 }
 
-.buttonDefault ,  .ReqBtn{
+ .ReqBtn{
     display: none;
 }
 
@@ -411,9 +411,11 @@ text-align: center;
  /* background-color: rgb(74, 74, 236); */
  /* position: relative; */
 }
-.aboutContRight p{
-    padding: 2% 0;
-    margin-bottom: 44%;
+
+.aboutContRight p {
+    /* padding: 40% 0; */
+    padding: 41% 0 6% 0;
+    margin-bottom: 16%;
 }
 
 .aboutContainer .aboutContRight{
@@ -427,14 +429,39 @@ padding: 16% 0;
 margin: 8% auto;
 }
 
-.resb-btn-profil{
+
+/* .resb-btn-profil{
     width: 55%;
     padding: 2%;
-background-color: antiquewhite;
+    background-color: rgb(157, 114, 58);
+    position: absolute;
+    top: 7%;
+    z-index: 5;
+    border: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+} */
+
+.aboutContRight .aboutContRightImgBox button {
+    width: 80%;
+    padding: 4%;
+    color: var(--Black);
+    background-color: var(--Primary);
+    /*margin-right: 12%;
+    */margin: 6% 4%;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 position: absolute;
-top: 7%;
-z-index: 5;
+left: 6%;
 }
+
 
  
 .aboutMentor h4 {
@@ -442,7 +469,7 @@ z-index: 5;
     top: 60%;   
     left: 32px;
     /* background: #8d4747; */
-    padding: 1% 0;
+    padding: 4% 0;
     z-index: 3;
 }
 
@@ -457,8 +484,14 @@ z-index: 5;
     margin: 4% auto;
     width: 90%;
     padding: 3%;
+}
+
+.Comments-container {
+ 
+    padding: 59% 1% 1%;
 
 }
+
 
 /* ---------------------------rnd commnts media */
 
