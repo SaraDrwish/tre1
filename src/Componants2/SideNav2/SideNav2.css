@@ -1,0 +1,33 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+.sidnav-top{
+background-color: rgb(171, 151, 125);
+}
+
+.sidnav-top ul {
+    background-color: rgb(86, 76, 62);
+}
+
+.sidnav-top ul li{
+    background-color: rgb(210, 123, 9);
+}
+
+.sidnavt-bottom{
+    background-color: rgb(113, 139, 139);
+}
+ 
+.sidnavt-bottom-left{
+background-color: rgb(47, 94, 113);
+}
+
+.sidnavt-bottom-Right{
+background-color: var(--Secondary);
+color: white;
+padding: 0.2rem;
+}

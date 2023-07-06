@@ -13,9 +13,9 @@ import RequestMentor2 from './Componants2/RequestMentor2/RequestMentor2';
 function App() {
   return (
     <div className="App">
-      <div className='app-container'>
+      {/* <div className='app-container'> */}
 
-        <Header/>
+        {/* <Header/>
         <SideNav />
         <div className='App-Container-2'>
           <RequestInfo />
@@ -25,7 +25,9 @@ function App() {
               
             <Footer/>
 
-        </div> {/**end Comments-container */ }
+        </div> */}
+        {/**end Comments-container */}
+       
         
         {/* <Footer /> */}
         
@@ -38,11 +40,17 @@ function App() {
         </div> */}
 
         
-      </div> {/** end app-container */}
+    {/* </div> */}
+       {/** end app-container */ }
 
 
 
-       <div className='app2-container2'>
+      <div className='app2-container2'>
+        
+        <RequestMentor2 />
+
+        {/* <Comments2/> */}
+        
 
        
 
