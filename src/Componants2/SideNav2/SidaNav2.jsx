@@ -18,23 +18,21 @@ function SidaNav2() {
           
               </div>  {/** end sidnav-top */}
               
-              <div className="sidnavt-bottom d-flex gap-2">
-              {/* <div className="sidnavt-bottom d-flex flex-row justify-content-start p-2 flex-fill "> */}
-                  
-                           <div className="sidnavt-bottom-left ">
+              <ul className="sidnavt-bottom d-flex gap-2">
+          
+                   <a href="#">
+                           <li className="sidnavt-bottom-left ">
                               new mentoring request 
-                          </div> {/** end sidnavt-bottom-left */}
-
-                          <div className="sidnavt-bottom-Right flex-shrink-1 ">
+                          </li> {/** end sidnavt-bottom-left */}
+                  </a>
+          
+                  <a href="#">
+                          <li className="sidnavt-bottom-Right flex-shrink-1 ">
                                 +
-                          </div>  {/** end sidnavt-bottom-Right */}
-              
-                         {/** end row */}
-  
-
-              </div>  {/** end sidnavt-bottom */}
-      
-        
+                          </li>  {/** end sidnavt-bottom-Right */}
+                  </a>
+                 
+              </ul>  {/** end sidnavt-bottom */}
 
         
           </div> {/** end container */}

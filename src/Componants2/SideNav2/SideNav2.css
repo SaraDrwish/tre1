@@ -29,5 +29,5 @@ background-color: rgb(47, 94, 113);
 .sidnavt-bottom-Right{
 background-color: var(--Secondary);
 color: white;
-padding: 0.2rem;
+padding: 0 0.3rem;
 }
