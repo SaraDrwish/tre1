@@ -27,14 +27,16 @@ function RequestMentor2() {
 
                   <div className="Right-Request my-4 ">
               
-                  <div className="right-green-title text-white p-2 d-flex ml-auto ">  mentoring request </div>
-
+                    <div className="right-green-title-box d-flex justify-content-end ">
+                        <div className="right-green-title text-white p-2 text-center ">  mentoring request </div>
+                    </div> {/** end right-green-title-box */}
+              
                     <div className="Left-Request-Top">
                 
-                      <div className="Left-Request-Top-container m-4 d-flex align-items-center flex-row-reverse justify-content-between">
+                      <div className="Left-Request-Top-container m-2 d-flex align-items-center flex-row-reverse justify-content-between">
 
-                          <div className="Left-Request-Top-right w-50 ">
-                                    <button className='border-0 align-items-center p-2 my-4 '>Mentor</button>
+                          <div className="Left-Request-Top-right d-flex w-25">
+                                    <button className='border-0 m-auto justify-content-center align-items-center p-2 my-2'>Mentor</button>
                           </div> {/** end Left-Request-Top-top */}
 
                   
