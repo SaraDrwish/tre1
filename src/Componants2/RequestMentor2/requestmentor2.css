@@ -67,16 +67,29 @@
 .Left-Request-Top-right button{
     background-color: var(--Primary);
     width: 50%;
-    /* height: 15%; */
-    color: black;
+    /*height: 15%;
+    */color: black;
     border-radius: 5rem;
     -webkit-border-radius: 5rem;
     -moz-border-radius: 5rem;
     -ms-border-radius: 5rem;
     -o-border-radius: 5rem;
-    /* margin-right: 6%; */
+    /*margin-right: 6%;
+    */
+    transition: all 0.3s ease;
+ 
 }
 
+.Left-Request-Top-right:hover button{
+    background-color: #e7bc3c;
+}
+
+
+.Left-Request-Top-left p{
+margin-top: 9%;
+padding-bottom: 4%;
+
+}
 
 
 

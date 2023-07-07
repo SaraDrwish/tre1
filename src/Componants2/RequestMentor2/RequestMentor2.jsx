@@ -14,7 +14,7 @@ function RequestMentor2() {
         <div className="row">
 
             <div className="col col-lg-3">
-               <div className="Left-Request d-flex">
+               <div className="Left-Request d-sm-flex d-none">
                 
                   <SidNav2/>
                   
@@ -23,7 +23,7 @@ function RequestMentor2() {
             
                </div> {/** end col */}
              
-               <div className="col">
+               <div className="col-sm">
 
                   <div className="Right-Request my-4 ">
               
@@ -40,9 +40,10 @@ function RequestMentor2() {
                           </div> {/** end Left-Request-Top-top */}
 
                   
-                          <div className="Left-Request-Top-left bg-info d-flex flex-column ">
+                          <div className="Left-Request-Top-left bg-info d-flex flex-column w-75">
                                     <h3>Front End Development </h3>
                                     <span className='d-flex '> <h5  className='mr-3' > Khadija seif </h5> <small className='p-1' > is looking for a mentor </small>  </span>
+                                    <p className=''>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, illo fugit! Tempora quidem ducimus distinctio, odit quisquam optio at officia excepturi delectus!</p>
                           </div> {/** end Left-Request-Top-left*/}
                 
                           
