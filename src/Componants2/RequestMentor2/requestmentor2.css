@@ -1,13 +1,10 @@
 
-
 .RequestMentor2{
-    /* display: flex; */
     background-color: blanchedalmond;
     text-transform: capitalize;
 }
 
 .Left-Request{
-    /* flex: 1; */
     background-color: rgb(64, 224, 208);
     padding-top: 40%;
 }
@@ -15,14 +12,10 @@
 /* -------------------   end left section    ------------------------ */
 
 
-
-
 /* -------------------  start right section  ------------------------ */
 
 
-
 .Right-Request{
-    /* flex: 2; */
     background-color: rgb(255, 160, 255);
     border-radius: 1rem;
         -webkit-border-radius: 1rem;
@@ -31,28 +24,31 @@
         -o-border-radius: 1rem;
      overflow: hidden;
 }
-
 .Left-Request-Top{
-    background-color: rgb(105, 75, 105);
+    background-color: rgb(147, 115, 147);
     overflow: hidden;
-    /* padding: 0 2%; */
+    border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
  }
-
  .Left-Request-Top-container{
     background-color: brown;
+    position: relative;
  }
-
 .Left-Request-Top-left{
-    margin-top: 7%;
+    /* margin-top: 7%; */
 }
-
-.Left-Request-Top-left span{
+.Left-Request-Top-left span:nth-of-type(1){
     color: var(--Secondary);
 }
-
-.Left-Request-Top-right{
-    background-color: rgb(59, 120, 59);
- }
+.Left-Request-Top-left-title-res2{
+    color: black !important;
+}
+.nameh5span{
+    color: var(--Secondary);
+}
 
 .right-green-title {
     background-color: var(--Secondary);
@@ -61,37 +57,89 @@
     -moz-border-radius: 0.1rem 0.1rem 0.1rem 8rem;
     -ms-border-radius: 0.1rem 0.1rem 0.1rem 8rem;
     -o-border-radius: 0.1rem 0.1rem 0.1rem 8rem;
-    width: 30%;
+    /* width: 40%;*/
+    width: 38%;
+}
+
+.Left-Request-Top-right{
+    background-color: rgb(93, 146, 93);
+    /* margin-left: auto; */
+    position: absolute;
+    top: 6%;
+    /* bottom: 0; */
+    right: 2%;
+    z-index: 1;
+    /* width: 22%; */
 }
 
 .Left-Request-Top-right button{
     background-color: var(--Primary);
-    width: 50%;
-    /*height: 15%;
-    */color: black;
+    width: 30%;
+    color: black;
     border-radius: 5rem;
     -webkit-border-radius: 5rem;
     -moz-border-radius: 5rem;
     -ms-border-radius: 5rem;
     -o-border-radius: 5rem;
-    /*margin-right: 6%;
-    */
     transition: all 0.3s ease;
- 
 }
-
 .Left-Request-Top-right:hover button{
     background-color: #e7bc3c;
 }
-
-
+.Left-Request-Top-left{
+    background-color: rgb(220, 186, 193);
+       /* position: relative; */
+}
 .Left-Request-Top-left p{
-margin-top: 9%;
+margin-top: 11%;
 padding-bottom: 4%;
+}
+.Left-Request-Top-left-list{
+    background-color: #c4960d;
+}
+.Left-Request-Top-left-list span:nth-of-type(3){
+    color: var(--Secondary);
+}
+.RequestMentor2 .Right-Request .Left-Request-Top-left-list{
+    margin-bottom: 6%;
+}
+.RequestMentor2 .Right-Request .Left-Request-Top-left-list ul {
+    list-style: none;
+}
+
+
+
+/* ---------------start right section media ---------------- */
+
+@media screen and (max-width:480px) {
+
+
+    .Left-Request-Top {
+        font-size: small;
+    }
+
+    .right-green-title {
+        width: 66%;
+    }
+.Left-Request-Top-right {
+    top: 86%;
+    right: 12%;
+    /* width: 33%; */
+}
+    .Left-Request-Top-right button {
+        width: 100%;
+     }
+
+
+
 
 }
 
 
+
+/* ---------------end right section media ---------------- */
+
+/* -------------------  end right section  ------------------------ */
 
 
 
@@ -99,9 +147,8 @@ padding-bottom: 4%;
 /* ------------------------start btm right section ----------------------- */
 
 
-
 .Left-Request-Bottm{
-    background-color: yellow;
+    background-color: rgb(249, 249, 110);
 }
 
 
@@ -112,8 +159,7 @@ padding-bottom: 4%;
 
 
 
-/* -------------------   end right section    ------------------------ */
-
+ 
 
 
 
