@@ -3,17 +3,17 @@ import "./SideNav2.css"
 
 function SidaNav2() {
   return (
-      <div className='SidaNav2' >
+      <div className='SidaNav2 d-flex gap-4 ' >
         
           <div className="container">
             
         
-              <div className="sidnav-top">
+              <div className="sidnav-top d-flex">
                 
                   <ul>
-                      <li> <a href="#"> edit mentoring opportunity </a> </li>
-                      <li> <a href="#"> settings </a> </li>
-                      <li> <a href="#"> settingsterms and privecy </a> </li>
+                      <li className='py-1' > <a href="#"> edit mentoring opportunity </a> </li>
+                      <li className='py-1' > <a href="#"> settings </a> </li>
+                      <li className='py-1' > <a href="#"> settingsterms and privecy </a> </li>
                   </ul>
           
               </div>  {/** end sidnav-top */}
@@ -21,7 +21,7 @@ function SidaNav2() {
               <ul className="sidnavt-bottom d-flex gap-2">
           
                    <a href="#">
-                           <li className="sidnavt-bottom-left ">
+                           <li className="sidnavt-bottom-left">
                               new mentoring request 
                           </li> {/** end sidnavt-bottom-left */}
                   </a>

@@ -3,22 +3,108 @@
 .RequestMentor2{
     /* display: flex; */
     background-color: blanchedalmond;
+    text-transform: capitalize;
 }
 
 .Left-Request{
     /* flex: 1; */
     background-color: rgb(64, 224, 208);
+    padding-top: 40%;
 }
+
+/* -------------------   end left section    ------------------------ */
+
+
+
+
+/* -------------------  start right section  ------------------------ */
+
+
 
 .Right-Request{
     /* flex: 2; */
     background-color: rgb(255, 160, 255);
+    border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+     overflow: hidden;
 }
 
 .Left-Request-Top{
-    background-color: rgb(99, 44, 99);
+    background-color: rgb(105, 75, 105);
+    overflow: hidden;
+    /* padding: 0 2%; */
+ }
+
+ .Left-Request-Top-container{
+    background-color: brown;
+ }
+
+.Left-Request-Top-left{
+    margin-top: 12%;
 }
+
+.Left-Request-Top-left span{
+color: var(--Secondary);
+}
+
+.Left-Request-Top-right{
+    background-color: rgb(59, 120, 59);
+    margin: 0;
+}
+
+.right-green-title {
+    background-color: var(--Secondary);
+    border-radius: 0.1rem 0.1rem 0.1rem 8rem;
+    -webkit-border-radius: 0.1rem 0.1rem 0.1rem 8rem;
+    -moz-border-radius: 0.1rem 0.1rem 0.1rem 8rem;
+    -ms-border-radius: 0.1rem 0.1rem 0.1rem 8rem;
+    -o-border-radius: 0.1rem 0.1rem 0.1rem 8rem;
+    width: 30%;
+}
+
+.Left-Request-Top-right button{
+    background-color: var(--Primary);
+    width: 30%;
+    /* height: 15%; */
+    color: black;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    margin-right: 14%;
+}
+
+
+
+
+
+
+
+/* ------------------------start btm right section ----------------------- */
+
+
 
 .Left-Request-Bottm{
     background-color: yellow;
 }
+
+
+/* ------------------------ end  btm right section ----------------------- */
+
+
+
+
+
+
+/* -------------------   end right section    ------------------------ */
+
+
+
+
+
+
+

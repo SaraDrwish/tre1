@@ -7,7 +7,8 @@ a{
 }
 
 .sidnav-top{
-background-color: rgb(171, 151, 125);
+background-color: rgb(220, 212, 200);
+padding-top: 8%;
 }
 
 .sidnav-top ul {
@@ -15,15 +16,16 @@ background-color: rgb(171, 151, 125);
 }
 
 .sidnav-top ul li{
-    background-color: rgb(210, 123, 9);
+    background-color: rgb(255, 152, 18);
 }
 
 .sidnavt-bottom{
-    background-color: rgb(113, 139, 139);
+    padding-top: 8%;
+    background-color: rgb(150, 176, 176);
 }
  
 .sidnavt-bottom-left{
-background-color: rgb(47, 94, 113);
+background-color: rgb(26, 71, 90);
 }
 
 .sidnavt-bottom-Right{
