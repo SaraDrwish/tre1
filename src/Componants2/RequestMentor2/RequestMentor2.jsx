@@ -2,7 +2,7 @@ import React from 'react'
 import "./requestmentor2.css"
 import Comments2 from '../Comments2/Comments2'
 import SidNav2 from '../SideNav2/SidaNav2'
-import Mony from '@iconscout/react-unicons/icons/uil-money-bill'
+import Mony from '@iconscout/react-unicons/icons/uil-dollar-alt'
 import Location from '@iconscout/react-unicons/icons/uil-location-point'
 import Time from '@iconscout/react-unicons/icons/uil-clock'
 import Exp from '@iconscout/react-unicons/icons/uil-bag'
@@ -60,14 +60,14 @@ function RequestMentor2() {
                                     <p className=''>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, illo fugit!
                                       Tempora quidem ducimus distinctio, odit quisquam optio at officia excepturi delectus!</p>
                                     <div className="Left-Request-Top-left-list w-75 ">
-                                        <ul className='d-flex gap-4 m-0 p-0'>
-                                          <div className="left-ul">
-                                            <li> <span className='pr-2' > <Mony className="icon" /> </span> <span> Paid: </span> <span> 200 sdg/H</span> </li>
-                                            <li><span className='pr-2' > <Exp className="icon" /> </span><span>Expirence: </span> <span> none</span> </li>
+                                        <ul className='d-flex gap-4 p-0'>
+                                          <div className="left-ul ">
+                                            <li><span className='p-1 m-1' > <Mony className="icon" /> </span> <span> Paid: </span> <span> 200 sdg/H </span> </li>
+                                            <li><span className='p-1 m-1' > <Exp className="icon" /> </span><span>Expirence: </span> <span> none</span> </li>
                                            </div>{/** end left ul */}
-                                           <div className="right-ul">
-                                            <li><span className='pr-2'> <Location className="icon" /> </span><span> Location: </span>  <span> remote</span>  </li>
-                                            <li><span  className='pr-2' > <Time className="icon" /> </span><span>Duration: </span>  <span> open duration</span>  </li>
+                                           <div className="right-ul ">
+                                            <li><span className='p-1 m-1'> <Location className="icon" /> </span><span> Location: </span>  <span> remote</span>  </li>
+                                            <li><span  className='p-1 m-1' > <Time className="icon" /> </span><span>Duration: </span>  <span> open duration</span>  </li>
                                            </div>{/** end right ul */}
                                         </ul>
                             </div> {/** end Left-Request-Top-left-list */}
