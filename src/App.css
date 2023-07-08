@@ -109,7 +109,6 @@ a{
   /* height: 50vh; */
 }
 
-
 .app-container{
   /* padding: 1% 0; */
   /* margin: 2%; */
@@ -123,17 +122,12 @@ a{
   /* position: absolute; */
   /* top: 10%; */
   /* padding: 2%; */
-
-  
   height: 400vh;
-
-
     /* height: 480vh; */
 }
 /* .MAin-Comments{
   position: relative;
 }
-
 .MAin-Footer{
   position: relative;
   bottom: 0px;
@@ -141,11 +135,9 @@ a{
 
 
 
-
 /* =====================================
 --------------------------------- MEdia screens --------------------------------- 
 ===================================== */
-
 
 
 
@@ -164,3 +156,6 @@ a{
 
 
 }
+
+
+
