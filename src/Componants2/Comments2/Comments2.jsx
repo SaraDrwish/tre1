@@ -79,7 +79,8 @@ const Comments2 = ({ comment }) => {
 
             </div> {/** end Comments2-top-box */}
                 
-               {comment?.items?.map((cmnt) => {
+             
+              {comment?.items?.map((cmnt) => {
                  return (
                    <Comments2
                      key={cmnt.id}
@@ -89,13 +90,12 @@ const Comments2 = ({ comment }) => {
           </div> {/**end  Comments2-top */}
    
            
-            
 
 
           <div className="Comments2-btm d-flex p-2">
             <div className="Comments2-btm-box d-flex flex-column p-2 w-100  rounded ">
               <input type="text" placeholder='Comments' name="comments" className='border-light border-0 rounded p-4 ' />
-              <button className='border-0 p-2 text-white '  onClick={onAddComment} >Send</button>
+              <button className='border-0 p-2 text-white ' handelClick={onAddComment} onClick={onAddComment} >Send</button>
             </div> {/** end Comments2-btm-box */}
                                    
                                 

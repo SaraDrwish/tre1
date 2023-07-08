@@ -3,12 +3,12 @@ import "./SideNav2.css"
 
 function SidaNav2() {
   return (
-      <div className='SidaNav2 d-flex gap-4 ' >
+      <div className='SidaNav2 d-flex gap-4 justify-content-start align-items-start m-0 p-0 text-left ' >
         
           <div className="container">
             
         
-              <div className="sidnav-top d-flex">
+              <div className="sidnav-top d-flex justify-content-start align-items-start">
                 
                   <ul>
                       <li className='py-1' > <a href="#"> edit mentoring opportunity </a> </li>

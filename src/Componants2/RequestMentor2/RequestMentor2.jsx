@@ -18,7 +18,7 @@ function RequestMentor2() {
         <div className="row">
 
             <div className="col col-lg-3">
-               <div className="Left-Request d-sm-flex d-none">
+               <div className="Left-Request d-sm-flex d-none justify-content-start align-items-start">
                 
                   <SidNav2/>
                   
@@ -29,7 +29,7 @@ function RequestMentor2() {
              
                <div className="col-sm">
 
-                  <div className="Right-Request my-2">
+                  <div className="Right-Request ">
               
                         
                          <div className="right-green-title-box d-flex justify-content-end align-items-center ">
@@ -48,7 +48,7 @@ function RequestMentor2() {
 
                           
 
-                           <div className="Left-Request-Top-left d-flex flex-column m-4 ">
+                           <div className="Left-Request-Top-left d-flex flex-column mx-4">
                                     <div className="Left-Request-Top-left-title-res1 d-sm-flex flex-sm-column d-none">
                                         <h3>Front End Development </h3>
                                         <span className='d-flex '> <h5  className='mr-3' > Khadija seif </h5> <small className='p-1' > is looking for a mentor </small>  </span>

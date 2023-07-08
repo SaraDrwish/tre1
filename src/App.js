@@ -62,19 +62,9 @@ function App() {
         <div className='App-Container-2'>
           <RequestInfo />
         </div>
-        <div className="Footer-container">            
-            <Footer/>
-        </div> */}
-        {/**end Comments-container */} 
-        {/* <Footer /> */}
-        {/* <div className='MAin-Comments'>
-          <Comments />
-        </div>
-        <div className='MAin-Footer'>
-          <Footer/>
-        </div> */}
-    {/* </div> */}
-       {/** end app-container */ }
+             <Footer/>      
+         {/** end app-container */ }
+      
       <div className='app2-container2'>   
         <RequestMentor2 commnt={commentsData} />
         {/* <Comments2/> */}
