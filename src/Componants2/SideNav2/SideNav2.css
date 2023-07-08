@@ -7,25 +7,25 @@ a{
 }
 
 .sidnav-top{
-background-color: rgb(220, 212, 200);
+/* background-color: rgb(220, 212, 200); */
 padding-top: 8%;
 }
 
 .sidnav-top ul {
-    background-color: rgb(86, 76, 62);
+    /* background-color: rgb(86, 76, 62); */
 }
 
 .sidnav-top ul li{
-    background-color: rgb(255, 152, 18);
+    /* background-color: rgb(255, 152, 18); */
 }
 
 .sidnavt-bottom{
     padding-top: 8%;
-    background-color: rgb(150, 176, 176);
+    /* background-color: rgb(150, 176, 176); */
 }
  
 .sidnavt-bottom-left{
-background-color: rgb(26, 71, 90);
+/* background-color: rgb(26, 71, 90); */
 }
 
 .sidnavt-bottom-Right{
