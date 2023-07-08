@@ -121,7 +121,6 @@ padding-bottom: 4%;
     /*background-color: thistle;
     */border-radius: 1rem;
     background-color: white;
- 
 }
 .about-container h4{
     color: var(--Secondary);
@@ -201,6 +200,9 @@ padding-bottom: 4%;
         -o-border-radius: 50%;
 } */
  
+.left-aboutBox-btm h6{
+    color: var(--Secondary);
+}
 
 
 
@@ -223,10 +225,10 @@ padding-bottom: 4%;
             width: 96%;
     }
     .Left-Request-Top-container{
-        width: 94%;
+        width: 98%;
     }
     .Left-Request-Top-left{
-        width: 94%;
+        width: 98%;
     }
     .right-green-title {
         width: 66%;
@@ -244,6 +246,7 @@ padding-bottom: 4%;
      }
 .about-box {
     flex-direction: column;
+    margin: 0 !important;
 }
  .left-aboutBox,
  .right-aboutBox{
@@ -258,8 +261,9 @@ padding-bottom: 4%;
  }
  .Left-Request-Top-left  , .right-aboutBox , .right-aboutBox-btm{
         flex-direction: row;
-     }
- 
+}
+
+
 
 
 

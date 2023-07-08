@@ -100,17 +100,39 @@ function RequestMentor2() {
                                             <li>Lorem ipsum dolortetur adipisighgh hyghg hghhgh hghghh cing elit. Obcaecati, aliquam labore.</li>
                                          </ul>
                                </div> {/** end Left-Request-Top-left-parags-3 */}
-                                      <div className="Left-Request-Top-right w-50 mb-4  d-sm-none d-flex">
+                                      <div className="Left-Request-Top-right w-50 mb-4 d-sm-none d-flex">
                                           <button className='border-0 p-2 text-center mb-4'>Mentor</button>
                                       </div> {/** end Left-Request-Top-right */}
 
                             </div> {/** end Left-Request-Top-left-parags */}
 
                            <div className="about-container ">
-                                <h4 className='mb-2'>about khadija saif</h4>
-                                <div className="about-box  d-flex p-3 mt-4 ">
+                              <h4 className='mb-2 d-none d-sm-flex '>about khadija saif</h4>
+                              
+                      
+
+                            <div className="about-box  d-flex p-3 mt-4 ">
                               <div className="left-aboutBox d-flex flex-column  ">
                                 <div className="left-aboutBox-top d-flex gap-3 ">
+                                  
+                                  <div className="right-aboutBox-btm d-flex d-sm-none flex-column justify-content-center align-items-center ">
+                                      <div className="pfoImg  p-2 m-2 ">
+                                         <img src="#" alt="" />
+                                      </div>
+                                      <div className="pfobtn p-2 m-2 ">
+                                        <button className='border-0 p-2 text-center '>view Profile</button>
+                                      </div>
+                                  <div className="left-aboutBox-btm mb-3 d-sm-none d-flex flex-column ">
+                                
+                                       <h6 className='mt-3'>about bilal mansor</h6>
+                                        <p  className="p-0 m-0" >Lorem ipsum dolor sit amet
+                                              consectetur adipisicing elit. Nemo possimus suscipit
+                                              , pariatur necessitatibus sed deserunt laboriosam!</p>
+                                    </div>{/** end left-aboutBox-btm resbonsv */}
+                              
+                                  </div>{/** end right-aboutBox-btm resbonsv*/}
+                            
+
                                     <div className="left-aboutBox-left w-50 ">
                                       <ul >
                                         <li  ><span>name</span> <span>Balqees hamdi</span> </li>
@@ -125,7 +147,7 @@ function RequestMentor2() {
                                       </ul>
                                 </div> {/** {/** end left-aboutBox-right */}
                                 </div> {/** end left-aboutBox-top */}
-                                <div className="left-aboutBox-btm ">
+                                <div className="left-aboutBox-btm d-sm-flex d-none">
                                   <p  className="p-0" >Lorem ipsum dolor sit amet
                                         consectetur adipisicing elit. Nemo possimus suscipit
                                         , pariatur necessitatibus sed deserunt laboriosam!</p>
@@ -134,14 +156,14 @@ function RequestMentor2() {
                                 </div> {/**end left-aboutBox */}
                                 <div className="right-aboutBox d-flex flex-column  ">
                                   <div className="right-aboutBox-top ">
-                                      <span className='d-flex m-2 px-3'>Expirise</span>
-                                              <ul>
+                                      <span className='d-flex m-sm-2 px-sm-2 mb-1 mt-2'>Expirise</span>
+                                              <ul className='m-2 p-2 ' >
                                                 <li>Software Engneering</li>
                                                 <li>front end development </li>
                                                 <li>front end deve </li>
                                               </ul>
                                       </div> {/** end right-aboutBox-top */}
-                                      <div className="right-aboutBox-btm d-flex flex-column justify-content-center align-items-center ">
+                                      <div className="right-aboutBox-btm d-none d-sm-flex flex-column justify-content-center align-items-center ">
                                         <div className="pfoImg  p-2 m-2 ">
                                           <img src="#" alt="" />
                                         </div>
