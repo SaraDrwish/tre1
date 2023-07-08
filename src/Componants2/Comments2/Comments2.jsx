@@ -20,6 +20,7 @@ const Comments2 = ({ comment }) => {
         <div className="Comments2-container d-flex flex-column p-2  ">
    
           <div className="Comments2-top d-flex  flex-column p-4 m-2">
+            
             <div className="Comments2-top-box d-flex  flex-column p-3 m-auto w-100 m-2">
               
               <div className="Comments2-top-box-container d-flex  p-1 ">
@@ -38,8 +39,7 @@ const Comments2 = ({ comment }) => {
                 </div> {/** end right-Comments2-top-box */}
               </div> {/** end Comments2-top-box-container */}
               
-              {/* <div className="col-sm m-1"> */}
-              <div className="subComnt d-flex flex-column m-1 ">
+               <div className="subComnt d-flex flex-column m-1 ">
                 <div className="Comments2-top-box-container d-flex  p-1 ">
                 
                   <div className="left-Comments2-top-box d-flex justify-content-center align-items-center ">
@@ -57,9 +57,7 @@ const Comments2 = ({ comment }) => {
                 </div> {/** end Comments2-top-box-container */}
               </div>
               {/** end sub commnt */}
-                
-              {/* </div> */}
-              {/** end col */}
+   
                 
               <div className="Comments2-top-box-container d-flex  p-1 ">
                                     

@@ -20,6 +20,7 @@
  .Comments2-btm-box button{
 margin-top: 2%;
  }
+
 .Comments2-btm .Comments2-btm-box input:focus{
     outline: none;
     border: 0;
@@ -33,6 +34,15 @@ margin-top: 2%;
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
     margin-left: auto;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.Comments2-btm-box button:hover {
+    background-color: var(--Primary);
+     color: var(--Secondary) !important;
 }
 .Comments2-top-box{
     /* background-color: rgb(187, 67, 67); */
