@@ -38,6 +38,33 @@ body{
 
 }
 
+
+::-moz-selection {
+  background: var(--Primary);
+}
+::selection {
+  background: var(--Primary);
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px var(--Secondary);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--Secondary);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--Secondary);
+}
+
+
 .buttonDefault{
      width: 7%;
      padding: 1%;

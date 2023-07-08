@@ -1,3 +1,5 @@
+import {React, useState } from 'react';
+
 import './App.css';
 import Comments from "./Componants/Comments/Comments.jsx";
 import RequestInfo from './Componants/RequestInfo/RequestInfo';
@@ -10,57 +12,75 @@ import Comments2 from './Componants2/Comments2/Comments2';
 import RequestMentor2 from './Componants2/RequestMentor2/RequestMentor2';
 
 
+const commnts = {
+
+  id: 1,
+  items: [
+    {
+      id: 1111,
+      name: "hello",
+      items: [
+        {
+          id: 11112,
+          name: "hello word",
+          items: [
+             {
+          id: 111123,
+          name: "hello word 123",
+          items: [ ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      id: 111144,
+      name: "react js",
+      items: [
+        {
+           id: 1111456,
+            name: "js",
+            items: [ ]
+        }
+      ]
+    }
+  ]
+};
+
+
+
 function App() {
+
+      const [commentsData, setCommentsData] = useState(commnts);
+
   return (
+  
     <div className="App">
       {/* <div className='app-container'> */}
-
         {/* <Header/>
         <SideNav />
         <div className='App-Container-2'>
           <RequestInfo />
         </div>
-
-        <div className="Footer-container">
-              
+        <div className="Footer-container">            
             <Footer/>
-
         </div> */}
-        {/**end Comments-container */}
-       
-        
+        {/**end Comments-container */} 
         {/* <Footer /> */}
-        
-
         {/* <div className='MAin-Comments'>
           <Comments />
         </div>
         <div className='MAin-Footer'>
           <Footer/>
         </div> */}
-
-        
     {/* </div> */}
        {/** end app-container */ }
-
-
-
-      <div className='app2-container2'>
-        
-        <RequestMentor2 />
-
+      <div className='app2-container2'>   
+        <RequestMentor2 commnt={commentsData} />
         {/* <Comments2/> */}
-        
-
-       
-
-        
+          
       </div> {/** end app2-container 2 */}
-
-
-
-
-      
+   
     </div>  /** end App */
   );
 }

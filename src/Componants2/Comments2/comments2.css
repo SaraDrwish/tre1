@@ -83,4 +83,19 @@ margin-top: 2%;
     -o-border-radius: 50%;
 }
 
+ 
+/* ---------------start   media ---------------- */
+
+@media screen and (max-width:480px) {
+
+ 
+.Comments2-btm .Comments2-btm-box button {
+        width: 90%;
+        margin: 6% auto 0 auto;
+    }
+
+
+
+}
+
 
