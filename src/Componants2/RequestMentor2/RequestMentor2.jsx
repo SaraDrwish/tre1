@@ -32,19 +32,19 @@ function RequestMentor2() {
                   <div className="Right-Request my-2">
               
                         
-                       
-                  
-                        <div className="Left-Request-Top m-2">
-                          <div className="right-green-title-box d-flex justify-content-end ">
+                         <div className="right-green-title-box d-flex justify-content-end align-items-center ">
                             <div className="right-green-title text-white p-2 text-center ">  mentoring request </div>
                           </div> {/** end right-green-title-box */}
+                  
+                        <div className="Left-Request-Top m-2">
+                        
                             {/* <div className="Left-Request-Top-right w-25 d-flex align-items-center flex-row-reverse justify-content-between"> */}
-                             <div className="Left-Request-Top-right d-flex w-25">
+                             <div className="Left-Request-Top-right d-flex w-25 justify-content-end align-items-end d-sm-flex d-none">
                                 <button className='border-0 m-auto p-2 text-center '>Mentor</button>
                             </div> {/** end Left-Request-Top-right */}
                 
 
-                          <div className="Left-Request-Top-container d-flex justify-content-center ">
+                          <div className="Left-Request-Top-container d-flex justify-content-center m-auto">
 
                           
 
@@ -99,7 +99,10 @@ function RequestMentor2() {
                                             <li>Lorem ipsum dolortetur adipisicing elit. Obcaecati, aliquam labore.</li>
                                             <li>Lorem ipsum dolortetur adipisighgh hyghg hghhgh hghghh cing elit. Obcaecati, aliquam labore.</li>
                                          </ul>
-                              </div> {/** end Left-Request-Top-left-parags-3 */}
+                               </div> {/** end Left-Request-Top-left-parags-3 */}
+                                      <div className="Left-Request-Top-right w-50 mb-4  d-sm-none d-flex">
+                                          <button className='border-0 p-2 text-center mb-4'>Mentor</button>
+                                      </div> {/** end Left-Request-Top-right */}
 
                             </div> {/** end Left-Request-Top-left-parags */}
 
@@ -138,7 +141,7 @@ function RequestMentor2() {
                                                 <li>front end deve </li>
                                               </ul>
                                       </div> {/** end right-aboutBox-top */}
-                                      <div className="right-aboutBox-btm d-flex flex-column justify-content-center align-items-center  ">
+                                      <div className="right-aboutBox-btm d-flex flex-column justify-content-center align-items-center ">
                                         <div className="pfoImg  p-2 m-2 ">
                                           <img src="#" alt="" />
                                         </div>
@@ -169,7 +172,7 @@ function RequestMentor2() {
 
 
 
-                  <div className="Left-Request-Bottm ">
+                  <div className="Left-Request-Bottm m-2 ">
                     <Comments2/>
                   </div> {/** end Left-Request-Bottm */}
                   

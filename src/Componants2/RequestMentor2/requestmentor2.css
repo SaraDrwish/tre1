@@ -23,10 +23,15 @@
         -ms-border-radius: 1rem;
         -o-border-radius: 1rem;
      overflow: hidden;
+    background-color: rgb(229, 229, 229);
+        overflow: hidden;
+        box-shadow: rgba(40, 42, 46, 0.25) 0px 4px 8px -2px, rgba(41, 44, 50, 0.08) 0px 0px 0px 1px;
+        /* margin: auto; */
 }
 .Left-Request-Top{
-    background-color: rgb(195, 195, 195);
+    /* background-color: rgb(229, 229, 229); */
     overflow: hidden;
+    /* box-shadow: rgba(40, 42, 46, 0.25) 0px 4px 8px -2px, rgba(41, 44, 50, 0.08) 0px 0px 0px 1px; */
     border-radius: 1rem;
         -webkit-border-radius: 1rem;
         -moz-border-radius: 1rem;
@@ -60,19 +65,18 @@
     width: 38%;
 }
 .Left-Request-Top-right{
-    /* background-color: rgb(93, 146, 93); */
-    /* margin-left: auto; */
-    position: absolute;
+    /* position: absolute;
     top: 6%;
-    /* bottom: 0; */
     right: 2%;
-    z-index: 1;
-    /* width: 22%; */
+    z-index: 1; */
+    margin-left: auto;
+    margin-right: 4%;
+    margin-top: 4%;
 }
 
 .Left-Request-Top-right button{
     background-color: var(--Primary);
-    width: 40%;
+    width: 50%;
     color: black;
     border-radius: 5rem;
     -webkit-border-radius: 5rem;
@@ -210,22 +214,53 @@ padding-bottom: 4%;
 
 @media screen and (max-width:480px) {
 
-
+    .Right-Request{
+       font-size: small;
+       width: 98%;
+    }
     .Left-Request-Top {
         font-size: small;
+            width: 96%;
     }
-
+    .Left-Request-Top-container{
+        width: 94%;
+    }
+    .Left-Request-Top-left{
+        width: 94%;
+    }
     .right-green-title {
         width: 66%;
     }
-.Left-Request-Top-right {
-    top: 86%;
-    right: 12%;
-    /* width: 33%; */
-}
+   .Left-Request-Top-left p{
+      width: 96%;
+  }
+    .Left-Request-Top-right {
+        top: 86%;
+        right: 12%;
+        width: 100%;
+    }
     .Left-Request-Top-right button {
         width: 100%;
      }
+.about-box {
+    flex-direction: column;
+}
+ .left-aboutBox,
+ .right-aboutBox{
+    width: 99%;
+    flex-direction: column;
+ }
+ .left-aboutBox-top{
+    flex-direction: column;
+ }
+ .left-aboutBox-left , .left-aboutBox-right{
+    width: 99%;
+ }
+ .Left-Request-Top-left  , .right-aboutBox , .right-aboutBox-btm{
+        flex-direction: row;
+     }
+ 
+
 
 
 
