@@ -103,27 +103,51 @@ function RequestMentor2() {
 
                             </div> {/** end Left-Request-Top-left-parags */}
 
-                           <div className="about-container">
-                                <h4>about khadija saif</h4>
-                                <div className="about-box">
-                                <div className="left-aboutBox">
-                                <div className="left-aboutBox-left">
-                                  <u>
-                                    <li><span>name</span> <span>Balqees hamdi</span> </li>
-                                    <li><span>i am a</span> <span>fresh graduatemdi</span> </li>
-                                    <li><span>university</span> <span>intenational islamic university</span> </li>
-                                  </u>
-                                </div> {/** end left-aboutBox-left */}
-                                <div className="left-aboutBox-right">
-                                  <u>
-                                    <li><span>phone number</span> <span>0554422135</span> </li>
-                                    <li><span>email</span> <span>beso@gmail.locmi</span> </li>
-                                  </u>
+                           <div className="about-container ">
+                                <h4 className='mb-2'>about khadija saif</h4>
+                                <div className="about-box  d-flex p-3 mt-4 ">
+                              <div className="left-aboutBox d-flex flex-column  ">
+                                <div className="left-aboutBox-top d-flex gap-3 ">
+                                    <div className="left-aboutBox-left w-50 ">
+                                      <ul >
+                                        <li  ><span>name</span> <span>Balqees hamdi</span> </li>
+                                        <li><span>i am a</span> <span>fresh graduatemdi</span> </li>
+                                        <li><span>university</span> <span>intenational islamic university</span> </li>
+                                      </ul>
+                                    </div> {/** end left-aboutBox-left */}
+                                    <div className="left-aboutBox-right w-50 ">
+                                      <ul>
+                                        <li><span>phone number</span> <span>0554422135</span> </li>
+                                        <li><span>email</span> <span>beso@gmail.locmi</span> </li>
+                                      </ul>
                                 </div> {/** {/** end left-aboutBox-right */}
-                                <p>Lorem ipsum dolor sit amet
-                                  consectetur adipisicing elit. Nemo possimus suscipit, pariatur necessitatibus sed deserunt laboriosam!</p>
+                                </div> {/** end left-aboutBox-top */}
+                                <div className="left-aboutBox-btm ">
+                                  <p  className="p-0" >Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Nemo possimus suscipit
+                                        , pariatur necessitatibus sed deserunt laboriosam!</p>
+                                </div>{/** end left-aboutBox-btm */}
+                               
                                 </div> {/**end left-aboutBox */}
-                                  <div className="right-aboutBox"></div>{/**end right-aboutBox */}
+                                <div className="right-aboutBox d-flex flex-column  ">
+                                  <div className="right-aboutBox-top ">
+                                      <span className='d-flex m-2 px-3'>Expirise</span>
+                                              <ul>
+                                                <li>Software Engneering</li>
+                                                <li>front end development </li>
+                                                <li>front end deve </li>
+                                              </ul>
+                                      </div> {/** end right-aboutBox-top */}
+                                      <div className="right-aboutBox-btm d-flex flex-column justify-content-center align-items-center  ">
+                                        <div className="pfoImg  p-2 m-2 ">
+                                          <img src="#" alt="" />
+                                        </div>
+                                        <div className="pfobtn p-2 m-2 ">
+                                          <button className='border-0 p-2 text-center '>view Profile</button>
+                                        </div>
+                                      </div>{/** end right-aboutBox-btm */}
+                                
+                                  </div>{/**end right-aboutBox */}
                                 </div> {/**end  about-box */}
                             </div> {/** end about-container */}
                     

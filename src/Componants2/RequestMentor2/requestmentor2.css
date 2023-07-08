@@ -16,7 +16,7 @@
 
 
 .Right-Request{
-    background-color: rgb(255, 160, 255);
+    /* background-color: rgb(29, 15, 29); */
     border-radius: 1rem;
         -webkit-border-radius: 1rem;
         -moz-border-radius: 1rem;
@@ -25,7 +25,7 @@
      overflow: hidden;
 }
 .Left-Request-Top{
-    background-color: rgb(147, 115, 147);
+    background-color: rgb(195, 195, 195);
     overflow: hidden;
     border-radius: 1rem;
         -webkit-border-radius: 1rem;
@@ -34,7 +34,7 @@
         -o-border-radius: 1rem;
  }
  .Left-Request-Top-container{
-    background-color: brown;
+    /* background-color: brown; */
     position: relative;
  }
 .Left-Request-Top-left{
@@ -49,7 +49,6 @@
 .nameh5span{
     color: var(--Secondary);
 }
-
 .right-green-title {
     background-color: var(--Secondary);
     border-radius: 0.1rem 0.1rem 0.1rem 8rem;
@@ -60,9 +59,8 @@
     /* width: 40%;*/
     width: 38%;
 }
-
 .Left-Request-Top-right{
-    background-color: rgb(93, 146, 93);
+    /* background-color: rgb(93, 146, 93); */
     /* margin-left: auto; */
     position: absolute;
     top: 6%;
@@ -74,7 +72,7 @@
 
 .Left-Request-Top-right button{
     background-color: var(--Primary);
-    width: 30%;
+    width: 40%;
     color: black;
     border-radius: 5rem;
     -webkit-border-radius: 5rem;
@@ -83,11 +81,11 @@
     -o-border-radius: 5rem;
     transition: all 0.3s ease;
 }
-.Left-Request-Top-right:hover button{
+.Left-Request-Top-right:hover button , .right-aboutBox-btm button{
     background-color: #e7bc3c;
 }
 .Left-Request-Top-left{
-    background-color: rgb(220, 186, 193);
+    /* background-color: rgb(220, 186, 193); */
        /* position: relative; */
 }
 .Left-Request-Top-left p{
@@ -95,7 +93,7 @@ margin-top: 11%;
 padding-bottom: 4%;
 }
 .Left-Request-Top-left-list{
-    background-color: #c4960d;
+    /* background-color: #c4960d; */
 }
 .Left-Request-Top-left-list span:nth-of-type(3){
     color: var(--Secondary);
@@ -106,6 +104,105 @@ padding-bottom: 4%;
 .RequestMentor2 .Right-Request .Left-Request-Top-left-list ul {
     list-style: none;
 }
+.Left-Request-Top-left-parags h6{
+    color: var(--Secondary);
+}
+
+/* ---------------------start about  */
+.about-container{
+/* background-color: red; */
+        text-transform: capitalize;
+}
+.about-box{
+    /*background-color: thistle;
+    */border-radius: 1rem;
+    background-color: white;
+ 
+}
+.about-container h4{
+    color: var(--Secondary);
+}
+.left-aboutBox{
+    /* background-color: #5d4705; */
+    width: 69%;
+}
+.left-aboutBox-top{
+    /* background-color: rgb(150, 85, 77); */
+}
+.left-aboutBox-btm{
+    /* background-color: rgb(213, 213, 150); */
+}
+.left-aboutBox ul{
+    list-style: none;
+    /* background-color: rgb(148, 180, 85); */
+}
+.left-aboutBox-left{
+    /* background-color: rgb(236, 123, 104); */
+}
+.left-aboutBox-left ul , .left-aboutBox-right ul{
+    margin: 0;
+    padding: 0;
+}
+.left-aboutBox-left ul li , .left-aboutBox-right ul li{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 4%;
+ }
+.left-aboutBox-right{
+    /* background-color: turquoise; */
+}
+.right-aboutBox{
+    width: 29%;
+    /* background-color: rgb(226, 71, 0); */
+}
+.right-aboutBox-top{
+    /* background-color: slateblue; */
+}
+.right-aboutBox-btm{
+    /* background-color: wheat; */
+}
+.right-aboutBox-btm button{
+       background-color: var(--Primary);
+        width: 9rem;
+        text-transform: capitalize;
+        color: black;
+        border-radius: 5rem;
+        -webkit-border-radius: 5rem;
+        -moz-border-radius: 5rem;
+        -ms-border-radius: 5rem;
+        -o-border-radius: 5rem;
+        transition: all 0.3s ease;
+}
+.right-aboutBox-btm .pfoImg{
+    background-color:#D9D9D9 ;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+}
+/* .pfoImg img{
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+         border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+} */
+ 
+
+
+
+
+
+
 
 
 
@@ -134,6 +231,10 @@ padding-bottom: 4%;
 
 
 }
+
+
+
+
 
 
 
