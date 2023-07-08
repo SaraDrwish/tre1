@@ -103,10 +103,34 @@ function RequestMentor2() {
 
                             </div> {/** end Left-Request-Top-left-parags */}
 
+                           <div className="about-container">
+                                <h4>about khadija saif</h4>
+                                <div className="about-box">
+                                <div className="left-aboutBox">
+                                <div className="left-aboutBox-left">
+                                  <u>
+                                    <li><span>name</span> <span>Balqees hamdi</span> </li>
+                                    <li><span>i am a</span> <span>fresh graduatemdi</span> </li>
+                                    <li><span>university</span> <span>intenational islamic university</span> </li>
+                                  </u>
+                                </div> {/** end left-aboutBox-left */}
+                                <div className="left-aboutBox-right">
+                                  <u>
+                                    <li><span>phone number</span> <span>0554422135</span> </li>
+                                    <li><span>email</span> <span>beso@gmail.locmi</span> </li>
+                                  </u>
+                                </div> {/** {/** end left-aboutBox-right */}
+                                <p>Lorem ipsum dolor sit amet
+                                  consectetur adipisicing elit. Nemo possimus suscipit, pariatur necessitatibus sed deserunt laboriosam!</p>
+                                </div> {/**end left-aboutBox */}
+                                  <div className="right-aboutBox"></div>{/**end right-aboutBox */}
+                                </div> {/**end  about-box */}
+                            </div> {/** end about-container */}
+                    
 
+                    
                           </div> {/** end Left-Request-Top-left*/}
                 
-                          
                   
 
                       </div> {/** end Left-Request-Top-container */}
