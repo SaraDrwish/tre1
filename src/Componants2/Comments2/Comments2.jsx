@@ -30,10 +30,10 @@ const Comments2 = ({ comment }) => {
                             
                 <div className="right-Comments2-top-box d-flex flex-column mx-4 w-100">
                   <div className="left-Comments2-top-box-title m-2">
-                    <input placeholder='name Noran Ali' value={input} onChange={(e)=> setInput(e.target.value)} type="text" className='border-light border-0 rounded p-1 w-100' />
+                    <input placeholder='name Noran Ali' value={input} onChange={(e)=> setInput(e.target.value)} type="text" className='border-light border-0 rounded w-100' />
                   </div> {/** end left-Comments2-top-box-title */}
                   <div className="left-Comments2-top-box-comnt m-2">
-                    <input placeholder='single Comment' type="text" className='border-light border-0 rounded p-1 w-100 ' />
+                    <input placeholder='single Comment' type="text" className='border-light border-0 rounded w-100 ' />
                   </div> {/** end left-Comments2-top-box-comnt */}
                 </div> {/** end right-Comments2-top-box */}
               </div> {/** end Comments2-top-box-container */}
@@ -48,10 +48,10 @@ const Comments2 = ({ comment }) => {
                                   
                   <div className="right-Comments2-top-box d-flex flex-column mx-4 w-100">
                     <div className="left-Comments2-top-box-title m-2">
-                      <input placeholder='name Noran Ali' value="name : Noran Ali" type="text" className='border-light border-0 rounded p-1 w-100' />
+                      <input placeholder='name Noran Ali' value="name : Noran Ali" type="text" className='border-light border-0 rounded w-100' />
                     </div> {/** end left-Comments2-top-box-title */}
                     <div className="left-Comments2-top-box-comnt m-2">
-                      <input placeholder='single Comment' type="text" className='border-light border-0 rounded p-1 w-100 ' />
+                      <input placeholder='single Comment' type="text" className='border-light border-0 rounded w-100 ' />
                     </div> {/** end left-Comments2-top-box-comnt */}
                   </div> {/** end right-Comments2-top-box */}
                 </div> {/** end Comments2-top-box-container */}
@@ -69,10 +69,10 @@ const Comments2 = ({ comment }) => {
                                                 
                 <div className="right-Comments2-top-box d-flex flex-column mx-4 w-100">
                   <div className="left-Comments2-top-box-title m-2">
-                    <input placeholder='name Noran Ali' value="name : Noran Ali" type="text" className='border-light border-0 rounded p-1 w-100' />
+                    <input placeholder='name Noran Ali' value="name : Noran Ali" type="text" className='border-light border-0 rounded w-100' />
                   </div> {/** end left-Comments2-top-box-title */}
                   <div className="left-Comments2-top-box-comnt m-2">
-                    <input placeholder='single Comment' type="text" className='border-light border-0 rounded p-1 w-100 ' />
+                    <input placeholder='single Comment' type="text" className='border-light border-0 rounded w-100 ' />
                   </div> {/** end left-Comments2-top-box-comnt */}
                 </div> {/** end right-Comments2-top-box */}
                                   
@@ -81,6 +81,13 @@ const Comments2 = ({ comment }) => {
 
             </div> {/** end Comments2-top-box */}
                 
+               {comment?.items?.map((cmnt) => {
+                 return (
+                   <Comments2
+                     key={cmnt.id}
+                     comment={cmnt}
+                   />);  })}
+                    
           </div> {/**end  Comments2-top */}
    
            
