@@ -29,7 +29,7 @@ const Comments2 = ({ comment }) => {
                   <div className="left-Comments2-top-box-img"></div>{/** end left-Comments2-top-box-img */}
                 </div>  {/** end left-Comments2-top-box */}
                             
-                <div className="right-Comments2-top-box d-flex flex-column mx-4 w-100">
+                <div className="right-Comments2-top-box d-flex flex-column mx-2 mx-sm-4 w-100">
                   <div className="left-Comments2-top-box-title m-2">
                     <input placeholder='name Noran Ali' value={input} onChange={(e)=> setInput(e.target.value)} type="text" className='border-light border-0 rounded w-100' />
                   </div> {/** end left-Comments2-top-box-title */}
@@ -46,7 +46,7 @@ const Comments2 = ({ comment }) => {
                     <div className="left-Comments2-top-box-img"></div>{/** end left-Comments2-top-box-img */}
                   </div>  {/** end left-Comments2-top-box */}
                                   
-                  <div className="right-Comments2-top-box d-flex flex-column mx-4 w-100">
+                  <div className="right-Comments2-top-box d-flex flex-column mx-2 mx-sm-4 w-100">
                     <div className="left-Comments2-top-box-title m-2">
                       <input placeholder='name Noran Ali' value="name : Noran Ali" type="text" className='border-light border-0 rounded w-100' />
                     </div> {/** end left-Comments2-top-box-title */}
@@ -65,7 +65,7 @@ const Comments2 = ({ comment }) => {
                   <div className="left-Comments2-top-box-img"></div>{/** end left-Comments2-top-box-img */}
                 </div>  {/** end left-Comments2-top-box */}
                                                 
-                <div className="right-Comments2-top-box d-flex flex-column mx-4 w-100">
+                <div className="right-Comments2-top-box d-flex flex-column mx-2 mx-sm-4 w-100">
                   <div className="left-Comments2-top-box-title m-2">
                     <input placeholder='name Noran Ali' value="name : Noran Ali" type="text" className='border-light border-0 rounded w-100' />
                   </div> {/** end left-Comments2-top-box-title */}
