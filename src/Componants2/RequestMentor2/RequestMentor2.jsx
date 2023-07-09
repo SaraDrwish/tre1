@@ -48,7 +48,7 @@ function RequestMentor2() {
 
                           
 
-                           <div className="Left-Request-Top-left d-flex flex-column mx-4">
+                           <div className="Left-Request-Top-left d-flex flex-column mx-2">
                                     <div className="Left-Request-Top-left-title-res1 d-sm-flex flex-sm-column d-none">
                                         <h3>Front End Development </h3>
                                         <span className='d-flex '> <h5  className='mr-3' > Khadija seif </h5> <small className='p-1' > is looking for a mentor </small>  </span>
@@ -59,15 +59,36 @@ function RequestMentor2() {
                                     </div> {/** end Left-Request-Top-left-title */}
                                     <p className=''>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, illo fugit!
                                       Tempora quidem ducimus distinctio, odit quisquam optio at officia excepturi delectus!</p>
-                                    <div className="Left-Request-Top-left-list w-75 ">
-                                        <ul className='d-flex gap-4 p-0'>
+                                    <div className="Left-Request-Top-left-list ">
+                                        <ul className='d-flex gap-4 p-0 '>
                                           <div className="left-ul ">
-                                            <li><span className='p-1 m-1' > <Mony className="icon" /> </span> <span> Paid: </span> <span> 200 sdg/H </span> </li>
-                                            <li><span className='p-1 m-1' > <Exp className="icon" /> </span><span>Expirence: </span> <span> none</span> </li>
+                                              <li className='d-flex'  ><span className='p-1'  >
+                                                <Mony className="icon" /> </span>
+                                                <div className="left-ul-span  ">
+                                                  <span> Paid: </span> <span > 200 sdg/H </span>
+                                                </div>{/** end left-ul-span */}
+                                              </li>
+                                              <li  className='d-flex'  > <span className='p-1' >
+                                                <Exp className="icon" /> </span>
+                                                <div className="left-ul-span">
+                                                  <span>Expirence: </span>
+                                                  <span className='d-none d-sm-flex'>none</span>
+                                                  <span className='d-sm-none d-flex'>yes</span>
+                                                </div>{/** end left-ul-span */}
+                                              </li>
                                            </div>{/** end left ul */}
                                            <div className="right-ul ">
-                                            <li><span className='p-1 m-1'> <Location className="icon" /> </span><span> Location: </span>  <span> remote</span>  </li>
-                                            <li><span  className='p-1 m-1' > <Time className="icon" /> </span><span>Duration: </span>  <span> open duration</span>  </li>
+                                              <li className='d-flex ' ><span className='p-1'>
+                                                <Location className="icon" /> </span>
+                                                <div className="right-ul-span">
+                                                  <span> Location: </span>  <span  > remote</span>
+                                                </div>{/** end right-ul-span */}
+                                              </li>
+                                              <li className='d-flex ' ><span className='p-1' > <Time className="icon" /> </span>
+                                                <div className="right-ul-span">
+                                                  <span>Duration: </span>  <span   > open duration</span>
+                                                </div>{/** end right-ul-span */}
+                                              </li>
                                            </div>{/** end right ul */}
                                         </ul>
                             </div> {/** end Left-Request-Top-left-list */}
