@@ -1,21 +1,22 @@
 .PersonalInfo{
-    background-color: rgb(175, 195, 137);
+    /* background-color: rgb(175, 195, 137); */
     text-transform: capitalize;
   }
 .left-pernav{
-    background-color: rgb(87, 155, 155) !important;
+    /* background-color: rgb(87, 155, 155) !important; */
     /* width: 19%; */
     margin-right: auto;
 }
 .right-pernav{
-    background-color: rgb(62, 214, 54);
+    /* background-color: rgb(62, 214, 54); */
     /* width: 20%; */
     margin-left: auto;
         border-radius: 1rem;
 }
 .mdl-box-personal{
-    background-color: rgb(255, 158, 255);
+    /* background-color: rgb(255, 158, 255); */
     border-radius: 1rem;
+    margin: auto;
     width: 58%;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
@@ -23,7 +24,7 @@
     -o-border-radius: 1rem;
 }
 .personal-top{
-   background-color: rgb(148, 120, 51);
+   /* background-color: rgb(148, 120, 51); */
    position: relative;
    border-radius: 1rem;
 }
@@ -75,6 +76,8 @@
 .personal-med{
     background-color: rgb(184, 255, 232);
     width: 100%;
+    margin: auto;
+    padding: 1%;
 }
 .ul-list-per-med{
 background-color: rgb(232, 232, 131);
@@ -100,7 +103,7 @@ padding: 0;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
-    padding: 2%;
+    /* padding: 2%; */
 }
 .form-per-med form input:focus{
     border: none ;
@@ -121,7 +124,6 @@ padding: 0;
 .form-per-med-box{
     /* padding: 1%; */
     background-color: aqua;
-    margin: auto;
 }
 .form-per-med-left{
     /* background-color: rgb(138, 0, 138); */
@@ -157,5 +159,117 @@ padding: 0;
 /* --------------------------------- */
 
 .personal-btm{
-    background-color: thistle;
+    /* background-color: thistle; */
+    width: 100%;
+}
+
+.PersonalInfo .mdl-box-personal button {
+width: 33%;
+padding: 4%;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------===============================================================================================
+============--------=========================== --- start  media --- =============================================
+============================-------------================================================================*/
+
+@media screen and (max-width:480px) {
+
+
+
+    .per-box {
+         width: 100%;
+        left:0%;
+        top: 6%;
+    }
+.PersonalInfo .mdl-box-personal button {
+    width: 22%;
+    position: absolute;
+    right: 4%;
+}
+ .personal-top{
+        width: 100%;
+        font-size: small;
+  }
+
+.info-top {
+    padding: 0%;
+    width: 100%;
+    /* font-weight: bold; */
+}
+.info-top  h4{
+font-size: 1rem;
+}
+.info-top p{
+    font-size: 0.6rem;
+}
+.info-top h6 {
+    font-size: 0.7rem;
+}
+.gryCircl {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+
+ .mdl-box-personal {
+        width: 100%;
+    }
+.mdl-box-personal {
+    width: 100%;
+}
+/* .form-per-med-box-top , .form-per-med-box-btm2{
+    margin: auto;
+    width: 100%;
+} */
+.ul-list-per-med {
+    width: 100%;
+    text-align: center;
+}
+.personal-med ul {
+    width: 100%;
+}
+.personal-med ul li {
+    width: 100%;
+}
+.form-per-med-left {
+    width: 90%;
+}
+.form-per-med-right {
+    width: 90%;
+}
+.form-per-med-right-2 {
+    width:90%;
+}
+.form-per-med-left-2 {
+    width: 90%;
+}
+
+.form-per-med form  {
+margin: auto;
+/* width: 100%; */
+}
+ 
+.form-per-med-box {
+    margin: auto;
+    width: 100%;
+}
+
+
+
+
+
+
 }
