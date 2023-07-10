@@ -43,13 +43,13 @@ function PersonalInfo() {
                         <form action="">
                           <div className="form-per-med-box d-flex flex-column w-100 ">
                             <div className="form-per-med-box-top d-flex ">
-                                 <div className="form-per-med-left d-flex flex-column">
+                                 <div className="form-per-med-left d-flex flex-column m-1">
                                     <label htmlFor="">name</label>
                                     <input type="text"  placeholder='your name'/>
                                     <label htmlFor="">job title</label>
                                     <input type="text" placeholder='softwar engneer' />
                                   </div> {/** end form-per-med-left */}
-                                  <div className="form-per-med-right d-flex flex-column">
+                                  <div className="form-per-med-right d-flex flex-column m-1">
                                     <label htmlFor="">phone number</label>
                                     <input type="phone" placeholder='055121515' />
                                     <label htmlFor="">email</label>
@@ -57,11 +57,11 @@ function PersonalInfo() {
                                   </div> {/** end form-per-med-right */}
                               </div> {/** end form-per-med-box-top */}
                                  <div className="form-per-med-box-btm2 d-flex   ">
-                                     <div className="form-per-med-left-2 flex-column d-flex   ">
+                                     <div className="form-per-med-left-2 flex-column d-flex m-1  ">
                                          <label htmlFor="">phone number</label>
                                          <input type="email" placeholder='ama@gmail.com' />
                                      </div> {/** end form-per-med-left-2 */}
-                                     <div className="form-per-med-right-2 d-flex flex-column">
+                                     <div className="form-per-med-right-2 d-flex flex-column m-1">
                                          <label htmlFor="">email</label>
                                          <input type="email" placeholder='ama@gmail.com' />
                                     </div> {/** end form-per-med-right-2  */}
