@@ -5,7 +5,7 @@ function SidaNav2() {
   return (
       <div className='SidaNav2 d-flex gap-4 justify-content-start align-items-start m-0 p-0 text-left ' >
         
-          <div className="container">
+          <div className="container-fluid">
             
         
               <div className="sidnav-top d-flex justify-content-start align-items-start">

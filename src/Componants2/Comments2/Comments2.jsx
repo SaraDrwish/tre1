@@ -19,9 +19,9 @@ const Comments2 = ({ comment }) => {
    
         <div className="Comments2-container d-flex flex-column p-2  ">
    
-          <div className="Comments2-top d-flex  flex-column p-4 m-2">
+          <div className="Comments2-top d-flex  flex-column p-sm-4 p-2  m-2">
             
-            <div className="Comments2-top-box d-flex  flex-column p-3 m-auto w-100 m-2">
+            <div className="Comments2-top-box d-flex  flex-column p-0 p-sm-3 m-auto w-100 m-sm-2 m-0">
               
               <div className="Comments2-top-box-container d-flex  p-1 ">
                 
