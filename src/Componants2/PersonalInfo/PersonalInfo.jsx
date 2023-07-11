@@ -2,6 +2,7 @@ import React from 'react'
 import "./PersonalInfo.css"
 import SidaNav2 from '../SideNav2/SidaNav2'
 import hero from "../../assets/images/colored_background.jpg"
+import Exp from '@iconscout/react-unicons/icons/uil-bag'
 
 
 function PersonalInfo() {
@@ -41,9 +42,9 @@ function PersonalInfo() {
                     </div>
                     <div className="form-per-med">
                         <form action="">
-                          <div className="form-per-med-box d-flex flex-column w-100 mt-4 ">
-                            <div className="form-per-med-box-top d-sm-flex d-block">
-                                 <div className="form-per-med-left d-flex flex-column m-1">
+                          <div className="form-per-med-box d-flex flex-column w-100 mt-4 p-4 justify-content-between  align-items-center">
+                            <div className="form-per-med-box-top d-sm-flex d-block justify-content-between w-100">
+                                 <div className="form-per-med-left d-flex flex-column m-1 ">
                                     <label htmlFor="">name</label>
                                     <input type="text"  placeholder='your name'/>
                                     <label htmlFor="">job title</label>
@@ -56,21 +57,38 @@ function PersonalInfo() {
                                     <input type="email" placeholder='ama@gmail.com' />
                                   </div> {/** end form-per-med-right */}
                               </div> {/** end form-per-med-box-top */}
-                                 <div className="form-per-med-box-btm2 d-sm-flex d-block   ">
+                                 <div className="form-per-med-box-btm2 d-sm-flex d-block w-100 justify-content-between  ">
                                      <div className="form-per-med-left-2 flex-column d-flex m-1  ">
-                                         <label htmlFor="">phone number</label>
+                                         <label htmlFor="">company</label>
                                          <input type="email" placeholder='ama@gmail.com' />
                                      </div> {/** end form-per-med-left-2 */}
                                      <div className="form-per-med-right-2 d-flex flex-column m-1">
-                                         <label htmlFor="">email</label>
+                                         <label htmlFor="">job descreption</label>
                                          <input type="email" placeholder='ama@gmail.com' />
                                     </div> {/** end form-per-med-right-2  */}
                                  </div>  {/** end form-per-med-box-btm2 */}
                        
                 
-                                <div className="form-per-med-box-btm3">
-                                
-                                
+                                <div className="form-per-med-box-btm3 d-sm-flex d-block w-100 justify-content-between align-items-center ">
+                                     <div className="form-per-med-left-3 flex-column d-flex m-1   ">
+                                         <label htmlFor="" className='W-100'>experience</label>
+                                         <input type="text" placeholder='software engeneer at eif' />
+                                         <input type="text" placeholder='software engeneer at eit' />
+                                         <input type="text" placeholder='software engeneer at eee' />
+                                     </div> {/** end form-per-med-left-2 */}
+                                     <div className="form-per-med-med-3 flex-column d-flex m-1  ">
+                                          <label htmlFor="" className='W-100'>from</label>
+                                          <input type="number" placeholder='2014' />
+                                          <input type="number" placeholder='2011' />
+                                          <input type="number" placeholder='2010' />
+                                     </div> {/** end form-per-med-left-3 */}
+                                     <div className="form-per-med-right-3 d-flex flex-column m-1">
+                                          <label htmlFor="" className='W-100'>to</label>
+                                          <input type="number" placeholder='2018' />
+                                          <input type="number" placeholder='2016' />
+                                          <input type="number" placeholder='2017' />
+                                    </div> {/** end form-per-med-right-3 */}
+                                 
                                 </div> {/** end form-per-med-box-btm3 */}
 
 
@@ -92,8 +110,8 @@ function PersonalInfo() {
              </div> {/** end container-box */}
           
               <div className="right-pernav d-sm-flex d-none ">
-                  <input type="text" />
-                  <button>send</button>
+                  <input className='border-0 p-2' type="text" />
+                  <button className='border-0 p-2'>send</button>
               </div> 
 
    </div>  /** end PersonalInfo */ 
